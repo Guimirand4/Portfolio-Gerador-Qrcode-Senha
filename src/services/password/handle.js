@@ -18,7 +18,7 @@ async function permittedCharacters() {
         permitted.push("!@#$%^&*()_+[]{}|;:,.<>?`~");
     }
 
-    return permitted;
+    return permitted.join("");
 }
 
 
@@ -33,10 +33,10 @@ async function handle(){
     for(let i = 0; i < passwordLength; i++){
         const index = Math.floor(Math.random() * characters.length);
         password += characters[index];
-        return password
+        
     }
 
-
+    return password
 }
 
 export default handle;
