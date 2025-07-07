@@ -1,0 +1,33 @@
+# 🔐✨ Gerador de Senhas e QR Code (Node.js)
+
+Projeto em Node.js que combina dois utilitários práticos:
+
+- ✅ **Gerador de Senhas Seguras e Personalizáveis** (via `.env`)
+- ✅ **Gerador de QR Code** para qualquer link informado
+
+Utilizando pacotes NPM populares e rodando diretamente via terminal.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- [Node.js](https://nodejs.org/)
+- [dotenv](https://www.npmjs.com/package/dotenv)
+- [qrcode-terminal](https://www.npmjs.com/package/qrcode-terminal)
+- JavaScript (ESM)
+
+---
+
+## ⚙️ Configuração `.env`
+
+Defina os parâmetros da senha e do QR Code diretamente no arquivo `.env`:
+
+# Geração de senha
+UPPERCASE_LETTERS=true
+LOWERCASE_LETTERS=true
+NUMBERS=true
+SPECIAL_CHARACTERS=true
+PASSWORD_LENGTH=12
+
+# Geração de QR Code
+https://www.exemplo.com
