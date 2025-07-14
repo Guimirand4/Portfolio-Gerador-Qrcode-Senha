@@ -2,7 +2,7 @@
 
 Projeto em Node.js que combina dois utilitários práticos:
 
-- ✅ **Gerador de Senhas Seguras e Personalizáveis** (via `.env`)
+- ✅ **Gerador de Senhas Seguras e Personalizáveis** (via .env)
 - ✅ **Gerador de QR Code** para qualquer link informado
 
 Utilizando pacotes NPM populares e rodando diretamente via terminal.
@@ -11,16 +11,16 @@ Utilizando pacotes NPM populares e rodando diretamente via terminal.
 
 ## 🚀 Tecnologias Utilizadas
 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="nodejs" width="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg" alt="npm" width="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40"/>
+- [Node.js](https://nodejs.org/)
+- [dotenv](https://www.npmjs.com/package/dotenv)
+- [qrcode-terminal](https://www.npmjs.com/package/qrcode-terminal)
+- JavaScript (ESM)
 
 ---
 
-## ⚙️ Configuração `.env`
+## ⚙️ Configuração .env
 
-Defina os parâmetros da senha e do QR Code diretamente no arquivo `.env`:
+Defina os parâmetros da senha e do QR Code diretamente no arquivo .env:
 
 # Geração de senha
 UPPERCASE_LETTERS=true
