@@ -11,10 +11,7 @@ Utilizando pacotes NPM populares e rodando diretamente via terminal.
 
 ## 🚀 Tecnologias Utilizadas
 
-- [Node.js](https://nodejs.org/)
-- [dotenv](https://www.npmjs.com/package/dotenv)
-- [qrcode-terminal](https://www.npmjs.com/package/qrcode-terminal)
-- JavaScript (ESM)
+<div style="display: flex; flex-wrap: wrap; gap: 10px"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="nodejs" width="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg" alt="npm" width="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40"/> </div>
 
 ---
 
