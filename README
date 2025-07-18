@@ -24,14 +24,10 @@ Feito para ser prático, rápido e útil! 🚀
 
 ## 🛠️ Tecnologias Utilizadas
 
-<div style="display: flex; flex-direction: column; gap: 5px">
-
-- 🟩 **Node.js** — ambiente de execução JavaScript no servidor
-- 🧪 **dotenv** — carregamento de variáveis de ambiente
-- 📦 **qrcode-terminal** — biblioteca para exibir QR Codes no terminal
-- 🟨 **JavaScript (ESM)** — padrão moderno de módulos
-
-</div>
+- 🟩 **Node.js** — ambiente de execução JavaScript no servidor  
+- 🧪 **dotenv** — carregamento de variáveis de ambiente  
+- 📦 **qrcode-terminal** — biblioteca para exibir QR Codes no terminal  
+- 🟨 **JavaScript (ESM)** — padrão moderno de módulos  
 
 ---
 
