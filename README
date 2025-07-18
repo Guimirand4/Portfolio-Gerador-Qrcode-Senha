@@ -1,33 +1,51 @@
-# 🔐✨ Gerador de Senhas e QR Code (Node.js)
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:434343&height=140&section=header&text=🔐%20Gerador%20de%20Senhas%20e%20QR%20Code&fontSize=30&fontAlignY=35&fontColor=ffffff"/>
 
-Projeto em Node.js que combina dois utilitários práticos:
-
-- ✅ **Gerador de Senhas Seguras e Personalizáveis** (via .env)
-- ✅ **Gerador de QR Code** para qualquer link informado
-
-Utilizando pacotes NPM populares e rodando diretamente via terminal.
-
----
-
-## 🚀 Tecnologias Utilizadas
-
-- [Node.js](https://nodejs.org/)
-- [dotenv](https://www.npmjs.com/package/dotenv)
-- [qrcode-terminal](https://www.npmjs.com/package/qrcode-terminal)
-- JavaScript (ESM)
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-ESM-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000"/>
+  <img src="https://img.shields.io/badge/Dotenv-Config-8DD6F9?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/QR--Code-Terminal-black?style=for-the-badge"/>
+</p>
 
 ---
 
-## ⚙️ Configuração .env
+## 💡 Sobre o Projeto
 
-Defina os parâmetros da senha e do QR Code diretamente no arquivo .env:
+Um utilitário simples, direto ao ponto, e **muito útil** no dia a dia de desenvolvedores!
 
-# Geração de senha
+Esse projeto em **Node.js** oferece duas funções principais:
+
+- 🔐 **Geração de Senhas Seguras** totalmente **personalizável** via `.env`
+- 📱 **Geração de QR Codes** diretamente no **terminal** para qualquer link que você quiser
+
+Feito para ser prático, rápido e útil! 🚀
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+<div style="display: flex; flex-direction: column; gap: 5px">
+
+- 🟩 **Node.js** — ambiente de execução JavaScript no servidor
+- 🧪 **dotenv** — carregamento de variáveis de ambiente
+- 📦 **qrcode-terminal** — biblioteca para exibir QR Codes no terminal
+- 🟨 **JavaScript (ESM)** — padrão moderno de módulos
+
+</div>
+
+---
+
+## ⚙️ Configuração via `.env`
+
+Customize facilmente o comportamento do gerador:
+
+```env
+# 🔐 Geração de senha
 UPPERCASE_LETTERS=true
 LOWERCASE_LETTERS=true
 NUMBERS=true
 SPECIAL_CHARACTERS=true
 PASSWORD_LENGTH=12
 
-# Geração de QR Code
-https://www.exemplo.com
+# 📱 Geração de QR Code
+URL=https://www.exemplo.com
